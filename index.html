@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tarefas</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Lista de Tarefas</h1>
         <form>
-            <input type="text" placeholder="Insira a tarefa a ser realizada aqui">
-            <button type="submit" id="create-ol">Adicionar +</button>
-            <button type="reset">Cancelar</button>
+            <input type="text" placeholder="Digite a tarefa aqui" id="text">
+            <button type="submit" id="create">Adicionar +</button>
+            <button type="reset" id="cancel">Cancelar</button>
         </form>
+        <div class="invalid">
+            <p>Por favor, dê um nome à atividade maior que dois dígitos</p>
+        </div>
     </header>
-    <ol>
-        <li>
-            Dar comida aos gatos
-        </li>
-    </ol>
+    <main>
+        <ol>
+            <li>Dar comida aos gatos</li>
+        </ol>
+    </main>
 </body>
 </html>
