@@ -4,32 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
         <h1>Lista de Tarefas</h1>
-        <button type="button">Criar lista ordenada</button>
-        <button type="button">Criar lista não ordenada</button>
+        <form>
+            <input type="text" placeholder="Insira a tarefa a ser realizada aqui">
+            <button type="submit" id="create-ol">Adicionar +</button>
+            <button type="reset">Cancelar</button>
+        </form>
     </header>
-    <form id="form-ol">
-        <input type="text" placeholder="Insira a tarefa a ser realizada aqui">
-        <button type="submit" id="create-ol">Adicionar +</button>
-        <button type="reset">Cancelar</button>
-    </form>
-    <form id="form-ul">
-        <input type="text" placeholder="Insira a tarefa a ser realizada aqui">
-        <button type="submit" id="create-ul">Adicionar +</button>
-        <button type="reset">Cancelar</button>
-    </form>
     <ol>
         <li>
             Dar comida aos gatos
         </li>
     </ol>
-    <ul>
-        <li>
-            Dar comida aos gatos
-        </li>
-    </ul>
 </body>
 </html>
