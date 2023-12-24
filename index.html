@@ -13,18 +13,20 @@
     <header>
         <h1>Lista de Tarefas</h1>
         <form>
-            <input type="text" placeholder="Digite a tarefa aqui" id="text">
+            <input type="text" placeholder="Digite a tarefa aqui" id="text" required>
             <button type="submit" id="create">Adicionar +</button>
             <button type="reset" id="cancel">Cancelar</button>
         </form>
-        <div class="invalid">
-            <p>Por favor, dê um nome à atividade maior que dois dígitos</p>
-        </div>
     </header>
     <main>
+        <h2>Tarefas:</h2>
         <ol>
-            <li>Dar comida aos gatos</li>
+            <li>
+                <a id="item">Dar comida aos gatos</a>
+            </li>
         </ol>
     </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
