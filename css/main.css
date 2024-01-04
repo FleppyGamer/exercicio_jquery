@@ -87,6 +87,12 @@ ol li{
     border-bottom: 1px black solid;
 }
 
+ol li button{
+    border: transparent;
+    background-color: transparent;
+
+}
+
 .checked{
     text-decoration: line-through;
 }
